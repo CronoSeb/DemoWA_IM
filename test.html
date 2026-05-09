@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Widget — International Mobility</title>
+  <style>
+    body { font-family: sans-serif; background: #f5f7fa; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+    .box { background: #fff; border-radius: 16px; padding: 2rem 2.5rem; box-shadow: 0 4px 24px rgba(0,0,0,.08); max-width: 480px; text-align: center; }
+    h1 { color: #1B3A6B; font-size: 1.4rem; margin-bottom: .5rem; }
+    p  { color: #666; font-size: .9rem; line-height: 1.6; }
+    .note { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: .8rem 1rem; font-size: .8rem; color: #7a5c00; margin-top: 1.2rem; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>⚖️ International Mobility</h1>
+    <p>Página de prueba del widget de chat.<br>Haz clic en el botón azul marino abajo a la derecha.</p>
+    <div class="note">
+      <strong>Antes de probar:</strong> abre <code>widget.js</code> y cambia
+      <code>WORKER_URL</code> por la URL real de tu Cloudflare Worker.
+    </div>
+  </div>
+
+  <!-- Widget -->
+  <script src="./widget.js"></script>
+</body>
+</html>

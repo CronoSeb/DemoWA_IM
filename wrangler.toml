@@ -1,0 +1,11 @@
+name = "intmobility-bot"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "REEMPLAZA_CON_TU_KV_ID"
+
+# Secretos — configurar con:
+#   wrangler secret put ANTHROPIC_API_KEY
+#   wrangler secret put TELEGRAM_TOKEN
